@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import logo from '../../images/logo.svg';
 import './App.css';
 
+const Horses = () => (
+  
+  <div>
+    <h1>Colin's horses need to be in state ;)</h1>
+  
+  </div>
+  
+  );
+
 export class App extends Component {
   render() {
     return (
@@ -14,7 +23,9 @@ export class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/components/App/App.js</code> and save to reload.
         </p>
+      <Horses />
       </div>
+      
     );
   }
 }
