@@ -16,6 +16,7 @@
         "node": true
     },
     "rules": {
+		"jsx-a11y/alt-text": 0,
         "jsx-a11y/anchor-is-valid": [ "error", {
             "components": [ "Link" ],
             "specialLink": [ "to", "hrefLeft", "hrefRight" ],
@@ -30,6 +31,7 @@
 		}],
 		"import/prefer-default-export": 0,
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"react/no-multi-comp": 0,
 		"react/no-unescaped-entities": 0,
         "react/no-unused-prop-types": "off",
         "react/no-unused-state": "off",

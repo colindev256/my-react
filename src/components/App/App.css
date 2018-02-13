@@ -13,7 +13,7 @@ h1, h2 {
 
 .App-header {
   background-color: #014373;
-  height: 160px;
+  height: 190px;
   padding: 20px;
   color: white;
 }
@@ -28,9 +28,43 @@ h1, h2 {
   font-weight: lighter;
 }
 
-.App-intro {
-  font-size: large;
+/* .App-buttons {
+  margin: 20px 0;
+} */
+
+.App-buttons .button {
+  margin: 20px 40px;
 }
+
+.App-field {
+  background-color: #00ccff;
+  width: 100%;
+  height: 100%;
+}
+
+.App-horse {
+  /* margin-left: 10px; */
+}
+
+.App-field h3 {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.App-field img {
+  /* float: left; */
+  display: flex;
+  width: 75px;
+  height: 75px;
+  /* margin-bottom: 20px; */
+  border-radius: 50%;
+}
+
+.App-progress {
+  /* display: inline; */
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
