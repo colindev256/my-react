@@ -28,10 +28,6 @@ h1, h2 {
   font-weight: lighter;
 }
 
-/* .App-buttons {
-  margin: 20px 0;
-} */
-
 .App-buttons .button {
   margin: 20px 40px;
 }
@@ -42,10 +38,6 @@ h1, h2 {
   height: 100%;
 }
 
-.App-horse {
-  /* margin-left: 10px; */
-}
-
 .App-field h3 {
   padding: 0;
   margin: 0;
@@ -53,18 +45,23 @@ h1, h2 {
 }
 
 .App-field img {
-  /* float: left; */
   display: flex;
   width: 75px;
   height: 75px;
-  /* margin-bottom: 20px; */
   border-radius: 50%;
 }
 
 .App-progress {
-  /* display: inline; */
+  position: relative;
+  left: 80px;
+  bottom: 40px;
+  border-radius: 5px;
+
 }
 
+.progressbar-progress{
+  border-radius: 5px;
+} 
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
