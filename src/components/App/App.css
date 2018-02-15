@@ -28,14 +28,48 @@ h1, h2 {
   font-weight: lighter;
 }
 
+.App-buttons {
+  margin-top: 15px;
+}
+
 .App-buttons .button {
   margin: 20px 40px;
 }
 
+.App-dropdown {
+  width: 50%;
+  display: inline-block;
+}
+
+.App-dropdown .divider {
+  margin-bottom: 35px;
+}
+
+.App-dropdown .search{
+  margin-right: 10px; 
+}
+
+.App-dropdown .button{
+  background-color: #008080 !important;
+}
+
+.App-jockeys {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  bottom: 42px;
+}
+
+.App-jockeys .divider {
+  margin-bottom: 35px;
+}
+
 .App-field {
+  margin: 0 auto;
   background-color: #00ccff;
   width: 100%;
   height: 100%;
+  position: center;
 }
 
 .App-field h3 {

@@ -3,7 +3,6 @@ import logo from '../../images/logo.svg';
 import { Race } from './Race';
 import './App.css';
 
-
 export class App extends Component {
   state = {
     start: false,
@@ -17,7 +16,6 @@ export class App extends Component {
 
   resetClick = () => {
     this.setState({start: false});
-    // console.log(.start);
   }
 
   render() {
@@ -32,7 +30,7 @@ export class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">React Race</h1>
+          <h1 className="App-title">React.js</h1>
         </header>
         <Buttons />
         <Race start={this.state.start} reset={this.state.reset}/>
