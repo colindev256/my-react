@@ -18,13 +18,14 @@ export class Jockey extends Component {
     timer = () => {
         this.setState({ progress: this.state.progress + 1 });
         console.log("anyhting");
+        
         (this.state.progress >= 99) ? this.setState({ progress: 100 }) : "" ;
     }
-
+    break;
     render() {
         return (
             <div>
-                <div className="App-field">
+                <div className="App-lane">
                     <img src={ this.props.avatar } alt=""/>
                     <Progress className="App-progress" completed={this.state.progress} color={this.props.color}/>
                 </div>

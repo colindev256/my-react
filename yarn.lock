@@ -5314,6 +5314,12 @@ react-progressbar@^15.4.1:
     react "^15.6.1"
     react-dom "^15.6.1"
 
+react-promise@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-promise/-/react-promise-2.0.1.tgz#d1a76ddbb309ca1bf4c4f98fffb02175f46f6a72"
+  dependencies:
+    prop-types "^15.6.0"
+
 react-router-dom@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.2.2.tgz#c8a81df3adc58bba8a76782e946cbd4eae649b8d"
